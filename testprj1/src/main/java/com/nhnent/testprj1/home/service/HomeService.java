@@ -1,5 +1,7 @@
 package com.nhnent.testprj1.home.service;
 
-public interface HomeService {
+import java.util.Locale;
 
+public interface HomeService {
+	public String getFormattedServerDate(Locale locale);
 }
